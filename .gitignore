@@ -1,0 +1,13 @@
+# Node.js related
+node_modules/
+package-lock.json
+
+# Environment variables
+.env
+
+# Log files
+*.log
+
+# Other auto-generated files
+*.swp
+.DS_Store
