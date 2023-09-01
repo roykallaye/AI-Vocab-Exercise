@@ -15,7 +15,7 @@ import {
 require('dotenv').config();
 
 const app = express();
-const port = process.env.PORT;
+const port = 3000;
 ​
 app.get('/', (req: Request, res: Response) => res.send('Hello World!'));
 ​
@@ -44,8 +44,8 @@ const displayOutput = (message: string) => {
 };
 ​
 (async () => {
-    const native_language = process.env.NATIVE_LANGUAGE!;
-    const target_language = process.env.TARGET_LANGUAGE!;
+    const native_language: string = 'English';
+    const target_language: string = 'Italian';
     const words: string[] = ['apple', 'run', 'dog', 'write', 'book', 'dance', 'tree', 'jump', 'ocean', 'swim', 'cat', 'sing', 'on', 'with', 'under'];
     let currentIndex = 0;
     let correctedSentence: string = "";
