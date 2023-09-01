@@ -1,3 +1,4 @@
+require('dotenv').config();
 import express, { Request, Response } from 'express';
 import readline from 'readline';
 import { 
@@ -11,8 +12,6 @@ import {
     getAlternativeSentence,
     getCorrectAndImprovedSentence
 } from './vocab_gpt';
-
-require('dotenv').config();
 
 const app = express();
 const port = 3000;
