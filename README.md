@@ -38,12 +38,19 @@ Ensure you have NodeJS and npm installed.
 
 ## Running the Project
 
-Run the project using: npm start
+Run the project using:
 
+```
+npm start
+```
 
 ## Testing
 
-Run tests using: npm test
+Run tests using:
+
+```
+npm test
+```
 
 
 ## Contributing
