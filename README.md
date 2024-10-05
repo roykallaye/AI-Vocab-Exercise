@@ -1,5 +1,5 @@
-# Project Name (2bfluent)
-Vocabulary Exercise
+# Project Name
+VocabGPT
 
 ## Description
 This project is a vocabulary exercise in which the AI asks the user to translate some words, in addition to other related tasks.
@@ -12,7 +12,7 @@ Ensure you have NodeJS and npm installed.
 1. **Clone the repository**
 
     ```
-    git clone https://roykallaye@bitbucket.org/hilalmazen/2bfluentvocabgpt.git
+    git clone https://github.com/roykallaye/AI-Vocab-Exercise.git
     cd [your project directory]
     ```
 
